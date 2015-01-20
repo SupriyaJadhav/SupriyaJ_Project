@@ -1,0 +1,28 @@
+table,tr,td,th
+{
+    border:1px double;
+}
+table
+{
+    width:50%;
+}
+#odd
+{
+    background-color: #002a80;
+}
+#even
+{
+    background-color: cornflowerblue;
+}
+th,td
+{color: #000000;}
+
+#t2
+{
+    width: 50%;
+    border:1px double;
+}
+#t2 th tr
+{
+    border:1px double;
+}

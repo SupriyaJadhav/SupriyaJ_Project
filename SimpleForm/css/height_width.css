@@ -1,0 +1,56 @@
+.mainframe
+{
+    height:540px;
+    width:900px;
+    border:solid;
+    border-color: #000000;
+    margin: auto;
+    padding:30px 30px 30px 30px;
+    background-color: #88ffe4;
+
+}
+
+.sec_frame
+{
+    height:507px;
+    border:solid;
+    border-color: #000000;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #9397ff;
+}
+
+.sec1
+{
+
+    height:230px;
+    width:415px;
+    border: solid;
+    border-color: #000000;
+    float:left;
+    background-color: #ff3da6;
+    margin-bottom: 30px;
+}
+.sec2
+{
+
+    height:230px;
+    width:415px;
+    border: solid;
+    border-color: #000000;
+    float:right;
+    background-color: #feff08;
+    margin-bottom: 30px;
+}
+.sec3
+{
+    clear:both;
+    height:220px;
+    width:850px;
+    border: solid;
+    border-color: #000000;
+    background-color: #04ff91;
+
+
+}
