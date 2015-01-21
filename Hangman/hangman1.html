@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="JS/hangman_json.js"></script>
+    <link rel="stylesheet" href="CSS/hangman.css">
+
+
+</head>
+<body>
+
+
+
+<div id="alphabet">
+    <div class="container-fluid">
+        <h4>You have only 5 attempts. </h4>
+    <button class="btn btn-deafult" >A</button>
+    <button class="btn btn-deafult" >B</button>
+    <button class="btn btn-deafult" >C</button>
+    <button class="btn btn-deafult" >D</button>
+    <button class="btn btn-deafult" >E</button>
+    <button class="btn btn-deafult" >F</button>
+    <button class="btn btn-deafult" >G</button>
+    <button class="btn btn-deafult" >H</button>
+    <button class="btn btn-deafult" >I</button>
+    <button class="btn btn-deafult" >J</button>
+    <button class="btn btn-deafult" >K</button>
+    <button class="btn btn-deafult" >L</button>
+    <button class="btn btn-deafult" >M</button>
+    <button class="btn btn-deafult" >N</button>
+    <button class="btn btn-deafult" >O</button>
+    <button class="btn btn-deafult" >P</button>
+    <button class="btn btn-deafult" >Q</button>
+    <button class="btn btn-deafult" >R</button>
+    <button class="btn btn-deafult" >S</button>
+    <button class="btn btn-deafult" >T</button>
+    <button class="btn btn-deafult" >U</button>
+    <button class="btn btn-deafult" >V</button>
+    <button class="btn btn-deafult" >W</button>
+    <button class="btn btn-deafult" >X</button>
+    <button class="btn btn-deafult" >Y</button>
+    <button class="btn btn-deafult" >Z</button>
+    </div>
+
+    <div id="letter">
+        <a href="#" id="target">           </a><br>
+
+    </div>
+    <div id="footer">
+
+    </div>
+    <div id="btnDiv" class="container">
+        <button class="btn btn-success" onclick="reload()" id="new_btn">New</button>
+    </div>
+    <div id="catelog">
+        <h2>Catalogue</h2>
+
+        <h4>Won Game:</h4><p id="won">0</p>
+        <h4>Loss Game:</h4><p id="lose">0</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

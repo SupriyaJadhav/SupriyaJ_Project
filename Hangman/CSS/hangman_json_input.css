@@ -1,0 +1,55 @@
+#alphabet
+{
+    background-color: aquamarine;
+}
+
+#image img
+{
+    width:1400px;
+    height:400px;
+    margin-left: 100px;
+
+}
+
+#letter
+{
+    height:50px;
+   width:300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border:solid;
+    border-color: #000000;
+
+}
+a
+{
+    margin-left:100px;
+}
+#footer
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#btnDiv
+{
+    margin-left: 250px;
+}
+#catelog
+{
+     border: solid;
+    border-color: #000000;
+    background-color: aquamarine;
+}
+
+h2
+{
+    text-align: center;
+    color: brown;
+
+
+}
+p
+{
+    display: inline;
+}

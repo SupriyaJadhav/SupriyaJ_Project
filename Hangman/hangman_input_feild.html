@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="JS/hangman_input_feild_json.js"></script>
+    <link rel="stylesheet" href="CSS/hangman_json_input.css">
+    <title></title>
+</head>
+<body>
+
+<div id="alphabet">
+
+    <div id="image">
+    <img src="Alpha Image/hangman2.png">
+    </div>
+
+
+    <div class="container-fluid">
+        <h4>You have only 5 attempts. </h4>
+       <input id="input_data" type="text" placeholder="Enter alphabet">
+    </div>
+
+
+    <div id="letter">
+        <a href="#" id="target"></a><br>
+    </div>
+
+
+    <div id="footer">
+    </div>
+
+
+    <div id="btnDiv" class="container">
+        <button class="btn btn-success" onclick="reload()" id="new_btn">New</button>
+    </div>
+
+
+</div>
+<div id="catelog">
+    <h2>Catalogue</h2>
+
+    <h4>Won Game:</h4><p id="won">0</p>
+    <h4>Loss Game:</h4><p id="lose">0</p>
+
+</div>
+
+</body>
+</html>
