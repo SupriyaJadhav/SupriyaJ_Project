@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <script src="javascript/index.js"></script>
+
+    <title>Address Book</title>
+
+</head>
+<body>
+    <div class = "mainpage">
+
+        <h1 class = "addr"><img src="images/addrbook2.png" style = "width:85px;height:85px; float:left; margin-top:-20px;">Address Book</h1>
+        <hr>
+
+        <div class ="addbut">
+            <button id="newbut" onclick="addNew()">Add New</button>
+        </div>
+
+        <div class="img_name">
+            <img src="images/girl.jpg" alt="profile pic" id = "img">
+
+            <div class = "name_input">
+                <label>Name:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id = "name" placeholder="Enter name.">
+            </div>
+
+            <div>
+                <input type="file" id = "imagefile" style = "width : 200px;">
+                <a herf ="#" onclick="imageFunction()" style="color:blue;text-decoration: underline; cursor:pointer;">Upload Photo</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div id = "divform">
+                <form name ="addrform">
+                    Email:&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" name="email" id="email" placeholder="Enter email address." >
+                    <br>
+                    Contact:&nbsp;
+                    <input type="text" name="contact" id="contact" placeholder="Enter contact number.">
+
+                    Address:
+                    <input type="text" name="address" id="address" placeholder="Enter address.">
+
+                </form>
+
+                <div class = "divbuttons">
+                    <button id="addbutton" onclick="addDetails()">Add</button>
+                    <button id="updatbutton" onclick="updateDetails()">Update</button>
+                </div>
+            </div>
+
+            <div id = "divtable">
+                <table id = "detailtable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th>Address</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><label id = "edit"></label></td>
+                        <td><label id = "delete"></label></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

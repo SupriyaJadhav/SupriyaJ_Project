@@ -1,0 +1,110 @@
+.page{
+    margin:0 auto;
+    width:60%;
+    background-color:antiquewhite;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+}
+.page h2{
+    background-color:darkseagreen;
+}
+.btnDiv{
+    width:25%;
+    left:0px;
+
+}
+.btnDiv button{
+    height:40px;
+    background-color: cornsilk;
+    border:2px outset gray;
+}
+.btnDiv button:active{
+    background-color: cadetblue;
+    border:1px inset gray;
+}
+.formDiv img{
+
+
+    left:0px;
+
+    height:150px;
+    width:20%;
+
+
+}
+input{
+    height:30px;
+
+    margin-bottom:5px;
+}
+.form{
+    margin-top:10px;
+    clear:both;
+    float:left;
+    width:100%;
+    padding:0px;
+    position:relative;
+    border:1px solid;
+
+}
+.form p{
+    left:0px;
+    width:80%;
+}
+.btn{
+    height:30px;
+    background-color:orange;
+    font-family: 'Shift', sans-serif;
+    font-size: 16px;
+}
+.recordGrid{
+
+
+    position:initial;
+    width:100%;
+    overflow:scroll;
+    height:435px;
+    visibility: hidden;
+
+}
+table th{
+    background-color: orange;
+}
+.recordGrid table{
+    width:100%;
+}
+.recordGrid table tr:nth-child(odd){
+    background-color:bisque;
+}
+.recordGrid table tr:nth-child(even){
+    background-color:burlywood;
+}
+
+.footer{
+    clear:both;
+}
+.updateButton{
+
+}
+label{
+    color:red;
+
+}
+.formDiv{
+    padding:10px;
+    border-radius:10px;
+    border:1px solid;
+    position: absolute;
+    width:58%;
+  }
+.formDiv input{
+    margin-left:0px;
+}
+.formDiv a{
+    margin-left:-520px;
+}
+#updateBtn{
+    visibility:hidden;
+    margin-left:-50px;
+}

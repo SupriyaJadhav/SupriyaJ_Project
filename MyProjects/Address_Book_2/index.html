@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/action.js"></script>
+    <script src="json/address.json"></script>
+    <title> Address Book 2</title>
+</head>
+<body>
+
+<div class="main">
+    <h2>ADDRESS BOOK</h2><hr>
+
+    <div class="new">
+        <button onclick="myHome()"> HOME</button>
+        <button onclick="myRecords()"> RECORDS</button>
+        <!--<button onclick="myRecords()"> RECORDS</button>-->
+    </div>
+
+    <div class="container1" id="container1">
+
+        <div class="main2">
+        <div class="img">
+        <img src="images/person.png" id="img" style="height: 250px" width="250px"/>
+
+        </div>
+
+        <div class="upload">
+        <a href="#"  onclick="myUpload()"> <h5>Upload Image</h5></a>
+        </div>
+
+
+        <div class="browse">
+        <input type="file" id="upload">
+        </div>
+        </div>
+
+
+        <div class="combo">
+        <div class="info">
+        Name: <input type="text"  id="name"  placeholder="Enter your name here" style="width: 300px" /><br><br><br>
+        E-mail: <input type="text" id="email"   name="email" placeholder="Enter your Email address" style="width: 300px" /><br><br><br>
+        Contact: <input type="text" id="contact" placeholder="Enter your Contact" style="width: 300px"/><br><br><br>
+        Address: <input type="text"  id="address" placeholder="Enter your Address" style="width: 300px"/><br><br><br>
+        </div>
+
+        <div class="buttons">
+
+        <input type="submit" value="ADD" onclick="myAdd()"  />
+
+        <input type="submit" value="UPDATE" onclick="myUpdate()"/>
+        </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container2" id="container2">
+
+        <div class="table">
+
+        <table style="width:100%" id="tId" >
+        <tr>
+        <th>Name</th>
+        <th>E-mail</th>
+        <th>Contact</th>
+        <th>Address</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        </tr>
+        </table>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+<!--<div id="myId"></div>-->
+
+
+
+
+</body>
+</html>
