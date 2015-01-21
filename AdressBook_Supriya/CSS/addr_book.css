@@ -1,0 +1,71 @@
+#main
+{
+    display:inline;
+    width:80%;
+}
+
+.container
+{
+    float:left;
+    margin-left: 80px;
+   width:30%;
+    border: double;
+    border-color: black;
+
+}
+
+#info input
+{
+margin-bottom: 40px;
+}
+h1
+{
+    text-align: center;
+}
+
+#info
+{
+    border: double;
+    border-color: black;
+    width:400px;
+    padding:20px;
+}
+
+#btn
+{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+img
+{
+    height:100px;
+    width:100px;
+}
+
+table tr td
+{
+
+    border: 1px solid black;
+}
+table
+{
+
+width:100%;
+}
+
+#data
+{
+    float:right;
+    position:relative;
+    width:50%;
+    border: solid;
+    border-color: black;
+    margin-right: 200px;
+    padding:20px;
+
+}
+
+#searchDetails
+{
+    margin-left: 65%;
+}

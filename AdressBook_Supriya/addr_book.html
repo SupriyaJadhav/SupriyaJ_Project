@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- code using search field
+corresponding files are-   addr_book.js and
+addr_book_css
+-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script rel="script" src="JS/addr_book.js"></script>
+    <link rel="stylesheet" href="CSS/addr_book.css">
+    <title></title>
+</head>
+<body onload="outOfFocus()">
+<h1>Address Book</h1><br>
+<div id="searchDetails">
+<input type="text" id="search" placeholder="Enter contact no.for search">
+<button class="btn btn-info" onclick="editRow()">Edit</button>
+<button class="btn btn-info" onclick="deleteRow()">Delete</button>
+    </div>
+<div id="main">
+<div class="container">
+
+
+    <button class="btn btn-success" onclick="setFocus()">Add New</button><br><br>
+    <img src="blank.jpg">
+    Name:<input id="name1" type="text"><br><br>
+    <div id="info">
+        Email:&nbsp;&nbsp;&nbsp;<input id="email" type="text"><br>
+        Contact:<input id="contact" type="text"><br>
+        Address:<input id="addr" type="text"><br>
+    </div>
+
+    <div id="btn">
+    <button class="btn btn-success" onclick="addData()">Add</button>
+    <button class="btn btn-success" onclick="updateData()">Update</button>
+    </div>
+
+
+</div>
+
+<div id="data">
+    <table id="tableData">
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Contact</td>
+            <td>Address</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>

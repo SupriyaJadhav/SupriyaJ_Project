@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script rel="script" src="JS/addr_book_hide_display.js"></script>
+    <link rel="stylesheet" href="CSS/addr_book_hide_display.css">
+    <title></title>
+</head>
+<body onload="outOfFocus()">
+<div id="main">
+    <h1>Address Book</h1><br>
+
+    <button id="addNew" class="btn btn-success" onclick="setFocus()">Add New</button><br><br>
+    <div class="container">
+
+
+
+        <img src="blank.jpg" id="setHere">
+        Name:<input id="name1" type="text"><br><br>
+        <div id="B">
+            <input type="file" id="browse"><img class="img-circle" alt="img" src="blank.jpg" onclick="setImage()">Click here to set image
+        </div>
+        <div id="info">
+            Email:&nbsp;&nbsp;&nbsp;<input id="email" type="text"><br>
+            Contact:<input id="contact" type="text"><br>
+            Address:<input id="addr" type="text"><br>
+        </div>
+
+        <div id="btn">
+            <button class="btn btn-success" onclick="addData()">Add</button>
+            <button class="btn btn-success" onclick="updateData()">Update</button>
+        </div><br><br>
+
+
+    </div>
+
+    <div id="data">
+        <table id="tableData">
+            <tr>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Contact</td>
+                <td>Address</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
