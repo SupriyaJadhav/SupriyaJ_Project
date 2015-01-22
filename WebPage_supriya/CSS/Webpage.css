@@ -1,0 +1,113 @@
+#mainFrame
+{
+    margin: 0 auto;
+
+    width:100%;
+
+
+
+}
+#header
+{
+    height:150px;
+    margin-bottom:auto;
+
+}
+ul
+{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+ul li
+{
+    display:inline;
+
+}
+#mainHead
+{
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    list-style-type: none;
+    clear:both;
+
+}
+ul #contact
+{
+    float:right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-right: 10%;
+}
+ul #abt
+{
+    float:right;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 10%;
+}
+
+
+#middleFrame
+{
+    padding-top: 20px;
+    height: 70%;
+    width: 80%;
+    background-color:blanchedalmond;
+
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.carousel-caption
+{
+    background-color: darkgray;
+    opacity: 0.5;
+    width: 96%;
+    left:15px;
+    padding: 10px;
+    text-align: left;
+    resize: vertical;
+    overflow:auto;
+    top:60%;
+
+}
+.carousel-caption p
+{
+   color:black;
+}
+
+#firstPara
+{
+    background-color: darkgray;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#secondPara
+{
+    background-color: darkgray;
+    padding: 10px;
+}
+#secondRow
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: darkgray;
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#footer
+{
+margin-bottom: auto;
+}
+#footer h5
+{
+    margin-left: 100px;
+}
+
