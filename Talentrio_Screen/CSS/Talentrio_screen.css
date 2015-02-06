@@ -1,0 +1,128 @@
+.mainPage
+{
+    width:100%;
+    height:100%;
+    /*border:solid;*/
+    /*border-color: black;*/
+    margin: 0 auto  ;
+}
+.header
+{
+    height:15%;
+    background-color: darkgrey;
+
+    /*position: absolute;*/
+
+}
+
+.header .list,.user,h4
+{
+    display:inline;
+}
+
+.list
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: darkgrey;
+}
+.user
+{
+    margin-top: 10px;
+    background-color:darkgrey;
+    float:right;
+    margin-right: 20px;
+
+}
+h4
+{
+margin-left: 20px;
+}
+
+p
+{
+    z-index:-1;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.listMenu
+{
+    width:0;
+    /*height:90%;*/
+    background-color:#D3D3D3;
+    visibility: hidden;
+    position: absolute;
+    /*border:solid;*/
+    /*border-color: black;*/
+    /*transition-duration: 2s;*/
+}
+img
+{
+    height:20%;
+    width:25%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.listMenu h4,h5,span
+{
+    margin-left: 11%;
+}
+.listMenu span{
+    margin-right: 10px;
+}
+
+
+.userMenu
+{
+
+    width:0;
+    /*height:90%;*/
+    float:right;
+    background-color:#D3D3D3;
+    visibility: hidden;
+    /*border:solid;*/
+    /*border-color: black;*/
+
+
+}
+
+.glyphicon-off
+{
+    padding-bottom: 20px;
+}
+.userMenu input
+{
+    margin-left: 8%;
+    margin-top: 10px;
+
+}
+.userMenu img
+{
+    height:50px;
+    width:50px;
+    margin-bottom: 10px;
+}
+
+.inner-addon {
+    position: relative;
+
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    /*pointer-events: none;*/
+}
+
+/* align icon */
+.left-addon .glyphicon  { left: 9%;}
+
+
+/* add padding  */
+.left-addon input  { padding-left:  10%;
+width: 70%;}
+
